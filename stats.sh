@@ -1,5 +1,7 @@
 data=("$@")
-echo "Basic Stats"
+./print_stats.sh ${data[@]}
+echo
+echo "Basic Stats:"
 ./mean.sh ${data[@]}
 ./median.sh ${data[@]}
 ./mode.sh ${data[@]}
