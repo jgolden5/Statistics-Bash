@@ -6,3 +6,4 @@ echo "Basic Stats:"
 ./median.sh ${data[@]}
 ./mode.sh ${data[@]}
 ./range.sh ${data[@]}
+./sum.sh ${data[@]}
