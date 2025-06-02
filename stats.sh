@@ -7,3 +7,4 @@ echo "Basic Stats:"
 ./mode.sh ${data[@]}
 ./range.sh ${data[@]}
 ./sum.sh ${data[@]}
+./standard-deviation.sh ${data[@]}

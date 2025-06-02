@@ -8,5 +8,5 @@ for e in "${data[@]}"; do
     exit 1
   fi
 done
-mean="$(echo "$total / ${#data[@]}" | bc)"
+mean="$(echo "scale=2; $total / ${#data[@]}" | bc)"
 echo "Mean = $mean"
